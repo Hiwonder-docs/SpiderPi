@@ -13,9 +13,10 @@
    docs/6.remote.md
    docs/8.upper_computer.md
    docs/9.ai_vision_project.md
-   docs/10.network_configuration.md
+   docs/10_network_configuration.md
    docs/11.computer_control_robot.md
-   docs/12.voice_handling.md
+   docs/12.AI Transport Lesson.md
+   docs/resources_download
 
 
 
