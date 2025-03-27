@@ -3,13 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===========
+SpiderPi
+===========
+
 .. toctree::
    :maxdepth: 2
    :caption: SpiderPi
 
    docs/1.getting_ready.md
    docs/2.quick_user_experience.md
-   docs/general_basic_courses.md
    docs/6.remote.md
    docs/8.upper_computer.md
    docs/9.ai_vision_project.md
