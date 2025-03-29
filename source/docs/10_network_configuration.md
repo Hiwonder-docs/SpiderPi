@@ -1,6 +1,6 @@
-# 6. Raspberry Pi Series Robot Network Configuration Instruction
+# 8. Raspberry Pi Series Robot Network Configuration Instruction
 
-## 6.1 Network Configuration Overview
+## 8.1 Network Configuration Overview
 
 This tutorial uses the MasterPi Pi5 version as an example, and it applies to other Pi5 models in this series as well.
 
@@ -12,9 +12,9 @@ The robot's network can be configured in two modes:
 
 By default, the robot operates in AP (direct connection) mode. The features and functions of the robot remain the same whether in AP mode or STA (local area network) mode.
 
-## 6.2 AP Direct Connection Mode
+## 8.2 AP Direct Connection Mode
 
-**6.2.1 Mode Switching through Phone**
+**8.2.1 Mode Switching through Phone**
 
 Using **the Android system** as an example, these instructions also apply to iOS.
 
@@ -62,7 +62,7 @@ For details on each mode, refer to the documentation provided earlier.
 
 <p id="anchor_1_2_2"></p>
 
-### 6.2.2 Switching via Network Configuration File
+**8.2.2 Switching via Network Configuration File**
 
 (1) Power on the robot and connect it to the remote control software, VNC.
 
@@ -122,7 +122,7 @@ sudo systemctl restart hw_wifi.service
 
 <p id="anchor_6_3"></p>
 
-## 6.3 Connecting in LAN Mode (optional)
+## 8.3 Connecting in LAN Mode (optional)
 
 :::{Note}
 
@@ -131,7 +131,7 @@ sudo systemctl restart hw_wifi.service
 * Switching to LAN mode cannot be done directly through the system's network settings, as the Wi-Fi has custom configurations. Please follow the instructions in Section 6.3.2 to switch modes using the network configuration file.
 :::
 
-### 6.3.1 Switching via the Mobile App
+### 8.3.1 Switching via the Mobile App
 
 :::{Note}
 For LAN mode, please enable location services on your smartphone.
@@ -177,7 +177,7 @@ For LAN mode, please enable location services on your smartphone.
 
 (11) To switch back to direct connection mode from LAN mode, press and hold the KEY1 button on the expansion board until the blue LED flashes, indicating that the switch is complete.
 
-### 6.3.2 Switching via Network Configuration File
+### 8.3.2 Switching via Network Configuration File
 
 (1) Power on the robot and connect it to the remote control software, NoMachine.
 
