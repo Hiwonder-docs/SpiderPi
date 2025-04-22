@@ -20,6 +20,6 @@ SpiderPi
    docs/11.computer_control_robot.md
    docs/10_network_configuration.md
    docs/resources_download
-
+   Download <https://drive.google.com/drive/folders/1JcNMB9jYfjnA1peUOlWMIEcAWo83I8wa?usp=sharing> 
 
 
